@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    
+    /* Custom color scheme based on Color-Typography.md */
+    --primary: 240 40% 5%; /* Terminal: #090A0F */
+    --primary-foreground: 0 0% 100%;
+    
+    --accent: 220 100% 61%; /* Flow: #397BFF */
+    --accent-foreground: 0 0% 100%;
+    
+    --secondary: 174 94% 67%; /* Beam: #8DFCF1 */
+    --secondary-foreground: 240 40% 5%;
+    
+    --background: 0 0% 100%; /* Screentime: #FFFFFF */
+    --foreground: 240 40% 5%; /* Terminal: #090A0F */
+    
+    --muted: 220 13% 91%; /* Keyboard: #E6E3EC */
+    --muted-foreground: 240 5% 65%;
+    
+    /* Additional colors from secondary palette */
+    --luminosity: 270 100% 75%; /* Luminosity: #A97DFF */
+    --ember: 22 100% 71%; /* Ember: #FF996C */
+    --afterglow: 50 100% 86%; /* Afterglow: #FFF6B6 */
+    
+    /* System colors */
+    --card: 0 0% 100%;
+    --card-foreground: 240 40% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 40% 5%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 100% 61%;
+    
+    /* Sidebar colors */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 40% 5%;
+    --sidebar-primary: 220 100% 61%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 94% 67%;
+    --sidebar-accent-foreground: 240 40% 5%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 220 100% 61%;
+    
+    /* Chart colors */
+    --chart-1: 220 100% 61%;
+    --chart-2: 174 94% 67%;
+    --chart-3: 270 100% 75%;
+    --chart-4: 22 100% 71%;
+    --chart-5: 50 100% 86%;
+  }
+  
+  .dark {
+    --primary: 0 0% 100%; /* Screentime: #FFFFFF */
+    --primary-foreground: 240 40% 5%;
+    
+    --accent: 220 100% 61%; /* Flow: #397BFF */
+    --accent-foreground: 0 0% 100%;
+    
+    --secondary: 174 94% 67%; /* Beam: #8DFCF1 */
+    --secondary-foreground: 240 40% 5%;
+    
+    --background: 240 40% 5%; /* Terminal: #090A0F */
+    --foreground: 0 0% 100%; /* Screentime: #FFFFFF */
+    
+    --muted: 240 5% 25%;
+    --muted-foreground: 240 5% 65%;
+    
+    /* Additional colors from secondary palette */
+    --luminosity: 270 100% 75%; /* Luminosity: #A97DFF */
+    --ember: 22 100% 71%; /* Ember: #FF996C */
+    --afterglow: 50 100% 86%; /* Afterglow: #FFF6B6 */
+    
+    /* System colors */
+    --card: 240 40% 5%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 40% 5%;
+    --popover-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 5% 25%;
+    --input: 240 5% 25%;
+    --ring: 220 100% 61%;
+    
+    /* Sidebar colors */
+    --sidebar-background: 240 40% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 220 100% 61%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 94% 67%;
+    --sidebar-accent-foreground: 240 40% 5%;
+    --sidebar-border: 240 5% 25%;
+    --sidebar-ring: 220 100% 61%;
+    
+    /* Chart colors */
+    --chart-1: 220 100% 61%;
+    --chart-2: 174 94% 67%;
+    --chart-3: 270 100% 75%;
+    --chart-4: 22 100% 71%;
+    --chart-5: 50 100% 86%;
+  }
+}
+
+/* Appfire-inspired Motion */
+.section-transition {
+  animation: fadeSlide 0.5s ease-out;
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Typography */
+body {
+  font-family: 'Arial', sans-serif; /* Will be replaced with Area Normal or fallback */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  h1 {
+    @apply text-4xl font-light leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl font-medium leading-tight;
+  }
+  
+  h3 {
+    @apply text-2xl font-semibold leading-tight;
+  }
+  
+  .subhead {
+    @apply text-xl font-semibold leading-tight;
+  }
+  
+  .body {
+    @apply text-base font-medium leading-relaxed;
+  }
+  
+  .folio {
+    @apply text-base font-semibold;
+  }
+}
+
+/* Form styling based on Jellyfish */
+.resume-gate-form {
+  @apply max-w-md bg-background shadow-lg rounded-lg p-6;
+  box-shadow: 0 8px 32px rgba(9, 10, 15, 0.1);
+}

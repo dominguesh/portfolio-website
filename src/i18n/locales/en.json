@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Solutions Engineer",
+    "subtitle": "Bridging technical knowledge with business value",
+    "motto": "Aut Viam Inveniam Aut Faciam",
+    "mottoTranslation": "Either I will find a way or I will make one",
+    "cta": "View Resume & Video"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Heraldo Domingues — a solutions engineer who thrives at the intersection of people, process, and technology.",
+    "description": "I specialize in simplifying complex problems and creating forward momentum. My focus is helping teams move faster, decide smarter, and build confidently. I'm at my best when supporting technical sales conversations, designing proofs of concept, and guiding buyers through the full customer journey.",
+    "strengths": {
+      "title": "I bring:",
+      "items": [
+        "Strategic clarity – I quickly assess what's working, what's not, and where to go next.",
+        "Drive to win – I don't just aim for progress. I aim for results that matter.",
+        "Vision for the future – I connect today's decisions to tomorrow's opportunities.",
+        "Action over analysis – I get teams moving when others are stuck.",
+        "Confidence under pressure – I lead conversations with presence, clarity, and care."
+      ]
+    },
+    "experience": "I've supported sales and customer success across software development, Agile/Scrum, cybersecurity (PAM), networking, and now Generative AI and prompt engineering. My time at Pluralsight sharpened how I demo, design, and deliver solutions that help engineering and L&D leaders move the needle — fast.",
+    "engagement": {
+      "title": "You'll find me most engaged when I'm:",
+      "items": [
+        "Running a live demo",
+        "Troubleshooting technical blockers",
+        "Coaching cross-functional teams",
+        "Mapping a path where none seems clear"
+      ]
+    }
+  },
+  "companies": {
+    "title": "Companies I've Worked With",
+    "viewAll": "View all"
+  },
+  "certifications": {
+    "title": "Certifications & Badges",
+    "active": "Active",
+    "expired": "Expired"
+  },
+  "portfolio": {
+    "title": "Project Portfolio",
+    "viewProject": "View Project",
+    "technologies": "Technologies",
+    "filters": {
+      "all": "All Projects",
+      "security": "Security",
+      "web": "Web Development",
+      "ai": "AI & ML"
+    }
+  },
+  "form": {
+    "title": "Get Access to Resume & Video Introduction",
+    "subtitle": "Please fill out this form to access the downloadable resume and video introduction",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Professional Email",
+      "role": "Your Role",
+      "company": "Company Name"
+    },
+    "consent": "I consent to receiving occasional updates about new projects and opportunities",
+    "submit": "Submit",
+    "success": "Thank you! You can now access the resume and video below.",
+    "error": "There was an error submitting the form. Please try again."
+  },
+  "blog": {
+    "title": "Blog",
+    "comingSoon": "Coming Soon in Phase 3",
+    "readMore": "Read More"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "copyright": "© 2025 Heraldo Domingues. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}

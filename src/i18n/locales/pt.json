@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "portfolio": "Portfólio",
+    "blog": "Blog",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Engenheiro de Soluções",
+    "subtitle": "Conectando conhecimento técnico com valor de negócio",
+    "motto": "Aut Viam Inveniam Aut Faciam",
+    "mottoTranslation": "Ou encontrarei um caminho ou criarei um",
+    "cta": "Ver Currículo e Vídeo"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "intro": "Sou Heraldo Domingues — um engenheiro de soluções que prospera na interseção de pessoas, processos e tecnologia.",
+    "description": "Especializo-me em simplificar problemas complexos e criar impulso. Meu foco é ajudar equipes a avançarem mais rápido, decidirem com mais inteligência e construírem com confiança. Estou no meu melhor quando apoio conversas técnicas de vendas, desenho provas de conceito e guio compradores através da jornada completa do cliente.",
+    "strengths": {
+      "title": "Eu trago:",
+      "items": [
+        "Clareza estratégica – Avalio rapidamente o que funciona, o que não funciona e para onde ir em seguida.",
+        "Determinação para vencer – Não busco apenas progresso. Busco resultados que importam.",
+        "Visão de futuro – Conecto as decisões de hoje às oportunidades de amanhã.",
+        "Ação sobre análise – Coloco equipes em movimento quando outros estão paralisados.",
+        "Confiança sob pressão – Conduzo conversas com presença, clareza e cuidado."
+      ]
+    },
+    "experience": "Apoiei vendas e sucesso do cliente em desenvolvimento de software, Agile/Scrum, cibersegurança (PAM), redes, e agora IA Generativa e engenharia de prompts. Meu tempo na Pluralsight aprimorou como demonstro, desenho e entrego soluções que ajudam líderes de engenharia e L&D a moverem a agulha — rapidamente.",
+    "engagement": {
+      "title": "Você me encontrará mais engajado quando estou:",
+      "items": [
+        "Executando uma demonstração ao vivo",
+        "Solucionando bloqueios técnicos",
+        "Orientando equipes multifuncionais",
+        "Mapeando um caminho onde nenhum parece claro"
+      ]
+    }
+  },
+  "companies": {
+    "title": "Empresas com as quais Trabalhei",
+    "viewAll": "Ver todas"
+  },
+  "certifications": {
+    "title": "Certificações e Badges",
+    "active": "Ativas",
+    "expired": "Expiradas"
+  },
+  "portfolio": {
+    "title": "Portfólio de Projetos",
+    "viewProject": "Ver Projeto",
+    "technologies": "Tecnologias",
+    "filters": {
+      "all": "Todos os Projetos",
+      "security": "Segurança",
+      "web": "Desenvolvimento Web",
+      "ai": "IA & ML"
+    }
+  },
+  "form": {
+    "title": "Obtenha Acesso ao Currículo e Vídeo de Introdução",
+    "subtitle": "Por favor, preencha este formulário para acessar o currículo para download e vídeo de introdução",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Email Profissional",
+      "role": "Seu Cargo",
+      "company": "Nome da Empresa"
+    },
+    "consent": "Eu concordo em receber atualizações ocasionais sobre novos projetos e oportunidades",
+    "submit": "Enviar",
+    "success": "Obrigado! Agora você pode acessar o currículo e vídeo abaixo.",
+    "error": "Houve um erro ao enviar o formulário. Por favor, tente novamente."
+  },
+  "blog": {
+    "title": "Blog",
+    "comingSoon": "Em breve na Fase 3",
+    "readMore": "Leia Mais"
+  },
+  "footer": {
+    "quickLinks": "Links Rápidos",
+    "connect": "Conectar",
+    "copyright": "© 2025 Heraldo Domingues. Todos os direitos reservados.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso"
+  }
+}
