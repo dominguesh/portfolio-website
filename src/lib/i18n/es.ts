@@ -1,0 +1,170 @@
+export default {
+    // Navigation
+    "nav.home": "Inicio",
+    "nav.projects": "Proyectos",
+    "nav.resume": "Currículum",
+    "nav.companies": "Empresas",
+    
+    // Hero section
+    "hero.greeting": "Hola, soy",
+    "hero.name": "Heraldo Domingues",
+    "hero.title": "Arquitecto Senior de Software",
+    "hero.subtitle": "Especializado en arquitectura de aplicaciones seguras y escalables",
+    "hero.cta": "Ver Mi Trabajo",
+    "hero.intro": "Soy Heraldo Domingues — un ingeniero de soluciones que prospera en la intersección de personas, procesos y tecnología.",
+    "hero.specialization": "Me especializo en simplificar problemas complejos y crear impulso progresivo. Mi enfoque es ayudar a los equipos a moverse más rápido, tomar decisiones más inteligentes y construir con confianza. Estoy en mi mejor momento cuando apoyo conversaciones técnicas de ventas, diseñando pruebas de concepto y guiando a los compradores a través del viaje completo del cliente.",
+    "hero.experience": "He apoyado ventas y éxito del cliente en desarrollo de software, Agile/Scrum, ciberseguridad (PAM), redes, y ahora IA Generativa e ingeniería de prompts.",
+    "hero.motto": "Aut Viam Inveniam Aut Faciam — \"O encontraré un camino o lo crearé.\"",
+    
+    // Companies section
+    "companies.title": "Empresas con las que he trabajado",
+    "companies.subtitle": "Una selección de empresas y tecnologías con las que tengo experiencia en mi trayectoria profesional.",
+    
+    // Projects section
+    "projects.title": "Proyectos",
+    "projects.subtitle": "Trabajos y contribuciones destacadas",
+    "projects.item1.title": "Entorno de Laboratorio Seguro",
+    "projects.item1.description": "Este proyecto implementa un entorno de laboratorio seguro con redes aisladas, con un servidor web, servidor de base de datos y controles de seguridad adecuados a través de un host bastión. La implementación incluye PAM (Módulos de Autenticación Conectables) para mejorar la seguridad y el control de acceso.",
+    "projects.item1.category": "Seguridad",
+    "projects.item2.title": "Aplicación Veganeiro 🌱",
+    "projects.item2.description": "Una plataforma integral de estilo de vida vegano que proporciona herramientas, recursos y funciones comunitarias para apoyar a personas en diferentes etapas de su viaje vegano. Construida con un stack de tecnología moderna que incluye Next.js 13, TypeScript y TailwindCSS con enfoque en la accesibilidad.",
+    "projects.item2.category": "Aplicación Web",
+    "projects.viewDemo": "Ver Proyecto",
+    "projects.viewDocumentation": "Ver Documentación",
+    "projects.viewRepo": "Ver Repositorio",
+    "projects.repository": "Repositorio",
+    "projects.categories.infrastructure": "Infraestructura",
+    "projects.categories.webDev": "Desarrollo Web",
+    
+    // Resume section
+    "resume.title": "Currículum",
+    "resume.subtitle": "Obtén mi currículum profesional",
+    "resume.description": "Completa el formulario a continuación para descargar mi currículum detallado con mi experiencia profesional, habilidades y educación.",
+    "resume.form.title": "Descarga Mi Currículum",
+    "resume.form.firstName": "Nombre",
+    "resume.form.lastName": "Apellido",
+    "resume.form.email": "Correo electrónico",
+    "resume.form.role": "Cargo",
+    "resume.form.company": "Empresa",
+    "resume.form.submit": "Descargar Currículum",
+    "resume.form.success": "¡Gracias! Tu currículum se está descargando...",
+    "resume.form.error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "resume.form.successTitle": "¡Éxito!",
+    "resume.form.successDescription": "Tu currículum se está descargando.",
+    "resume.form.errorTitle": "Error",
+    "resume.form.errorDescription": "Hubo un problema al descargar tu currículum. Por favor, inténtalo de nuevo.",
+    "resume.form.security": "Tu información está segura y no será compartida con terceros.",
+    "resume.form.features": "Qué Incluye",
+    "resume.form.feature1": "Historial laboral detallado",
+    "resume.form.feature2": "Análisis de habilidades",
+    "resume.form.feature3": "Cronología educativa",
+    "resume.form.feature4": "Portafolio de proyectos",
+    "resume.form.captcha": "La verificación de hCaptcha aparecerá aquí",
+    "resume.form.downloading": "Descargando...",
+    "resume.form.downloadBtn": "Descargar Currículum",
+    "resume.form.dataProtection": "Tus datos están protegidos y encriptados",
+    "resume.form.workEmail": "Correo Corporativo",
+    "resume.form.emailRequirement": "Debe ser un correo corporativo (Gmail, Yahoo, etc. no son aceptados)",
+    
+    // Certifications section
+    "certifications.title": "Certificaciones",
+    "certifications.subtitle": "Credenciales y logros profesionales",
+    "certifications.activeTitle": "Certificaciones Activas",
+    "certifications.pastTitle": "Certificaciones Anteriores",
+    
+    "certifications.aws.name": "AWS Solutions Architect - Professional",
+    "certifications.aws.short": "AWS Pro",
+    "certifications.aws.validity": "Válido hasta Dic 2025",
+    
+    "certifications.cissp.name": "Certified Information Systems Security Professional",
+    "certifications.cissp.short": "CISSP",
+    "certifications.cissp.validity": "Válido hasta Oct 2026",
+    
+    "certifications.azure.name": "Microsoft Azure Security Engineer",
+    "certifications.azure.short": "Azure Security",
+    "certifications.azure.validity": "Válido hasta Mar 2026",
+    
+    "certifications.kubernetes.name": "Certified Kubernetes Administrator",
+    "certifications.kubernetes.short": "CKA",
+    "certifications.kubernetes.validity": "Válido hasta Nov 2025",
+    
+    "certifications.comptia.name": "CompTIA Security+",
+    "certifications.comptia.short": "Security+",
+    "certifications.comptia.validity": "Válido hasta Ago 2026",
+    
+    "certifications.expired.network.name": "CompTIA Network+",
+    "certifications.expired.network.short": "Network+",
+    
+    "certifications.expired.mcsa.name": "Microsoft Certified Solutions Associate",
+    "certifications.expired.mcsa.short": "MCSA",
+    
+    "certifications.expired.itil.name": "ITIL Foundation",
+    "certifications.expired.itil.short": "ITIL",
+    
+    // Footer
+    "footer.copyright": "© 2025 Heraldo Domingues. Todos los derechos reservados.",
+    "footer.contact": "Contacto",
+    "footer.privacy": "Política de Privacidad",
+    "footer.terms": "Términos de Servicio",
+    "footer.description": "Especialista en arquitectura de aplicaciones web seguras y escalables",
+    "footer.quickLinks": "Enlaces Rápidos",
+    "footer.legal": "Legal",
+    "footer.cookies": "Política de Cookies",
+    "footer.rights": "Todos los Derechos Reservados",
+    "footer.builtWith": "Desarrollado con React & TailwindCSS",
+    
+    // Navigation addendum
+    "nav.certifications": "Certificaciones",
+    
+    // Language switcher
+    "language.label": "Idioma",
+    "language.english": "Inglés",
+    "language.portuguese": "Portugués",
+    "language.spanish": "Español",
+    
+    // Skills
+    "skills.technologies": "Tecnologías",
+    "skills.title": "Habilidades & Tecnologías",
+    "skills.subtitle": "Áreas de especialización y competencia",
+    "skills.technical": "Técnicas",
+    "skills.business": "Negocios",
+    "skills.management": "Gestión",
+    "skills.infrastructure": "Infraestructura",
+    "skills.security": "Seguridad",
+    "skills.development": "Desarrollo",
+    "skills.observability": "Observabilidad",
+    "skills.iBring": "Yo aporto:",
+    "skills.strategicClarity": "Claridad estratégica",
+    "skills.strategicClarityDesc": "Evalúo rápidamente lo que funciona, lo que no y hacia dónde ir a continuación.",
+    "skills.driveToWin": "Impulso para ganar",
+    "skills.driveToWinDesc": "No sólo aspiro al progreso. Busco resultados que importan.",
+    "skills.visionFuture": "Visión de futuro",
+    "skills.visionFutureDesc": "Conecto las decisiones de hoy con las oportunidades del mañana.",
+    "skills.actionAnalysis": "Acción sobre análisis",
+    "skills.actionAnalysisDesc": "Hago avanzar a los equipos cuando otros están estancados.",
+    "skills.confidence": "Confianza bajo presión",
+    "skills.confidenceDesc": "Dirijo conversaciones con presencia, claridad y cuidado.",
+    "skills.beginner": "Principiante",
+    "skills.intermediate": "Intermedio",
+    "skills.advanced": "Avanzado",
+    "skills.expert": "Experto",
+    "skills.nextjs": "Next.js",
+    "skills.networkSecurity": "Seguridad de Red",
+    "skills.typescript": "TypeScript",
+    "skills.next.js": "Next.js",
+    "skills.network security": "Seguridad de Red",
+    "skills.identity access management": "Gestión de Identidad y Acceso",
+    "skills.privileged access management": "Gestión de Acceso Privilegiado",
+    "skills.network segmentation": "Segmentación de Red",
+    "skills.intrusion detection": "Detección de Intrusiones",
+    
+    // Common buttons
+    "button.learnMore": "Más Información",
+    "button.download": "Descargar",
+    "button.submit": "Enviar",
+    "button.cancel": "Cancelar",
+    
+    // Recommendations section
+    "recommendations.title": "Recomendaciones de LinkedIn",
+    "recommendations.subtitle": "Lo que mis colegas dicen sobre mí",
+  };

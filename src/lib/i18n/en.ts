@@ -1,0 +1,170 @@
+export default {
+    // Navigation
+    "nav.home": "Home",
+    "nav.projects": "Projects",
+    "nav.resume": "Resume",
+    "nav.companies": "Companies",
+    
+    // Hero section
+    "hero.greeting": "Hello, I'm",
+    "hero.name": "Heraldo Domingues",
+    "hero.title": "Senior Software Architect",
+    "hero.subtitle": "Specializing in secure and scalable application architecture",
+    "hero.cta": "View My Work",
+    "hero.intro": "I'm Heraldo Domingues — a solutions engineer who thrives at the intersection of people, process, and technology.",
+    "hero.specialization": "I specialize in simplifying complex problems and creating forward momentum. My focus is helping teams move faster, decide smarter, and build confidently. I'm at my best when supporting technical sales conversations, designing proofs of concept, and guiding buyers through the full customer journey.",
+    "hero.experience": "I've supported sales and customer success across software development, Agile/Scrum, cybersecurity (PAM), networking, and now Generative AI and prompt engineering.",
+    "hero.motto": "Aut Viam Inveniam Aut Faciam — \"Either I will find a way or I will make one.\"",
+    
+    // Companies section
+    "companies.title": "Companies I've Worked With",
+    "companies.subtitle": "A selection of companies and technologies I have experience with in my professional journey.",
+    
+    // Projects section
+    "projects.title": "Projects",
+    "projects.subtitle": "Featured work and contributions",
+    "projects.item1.title": "Secure Lab Environment",
+    "projects.item1.description": "This project implements a secure laboratory environment with isolated networks, featuring a web server, database server, and proper security controls through a bastion host. The implementation includes PAM (Pluggable Authentication Modules) for enhanced security and access control.",
+    "projects.item1.category": "Security",
+    "projects.item2.title": "Veganeiro Webapp 🌱",
+    "projects.item2.description": "A comprehensive vegan lifestyle platform providing tools, resources, and community features to support people at different stages of their vegan journey. Built with modern technology stack including Next.js 13, TypeScript, and TailwindCSS with accessibility in mind.",
+    "projects.item2.category": "Web Application",
+    "projects.viewDemo": "View Project",
+    "projects.viewDocumentation": "View Documentation", 
+    "projects.viewRepo": "View Repository",
+    "projects.repository": "Repository",
+    "projects.categories.infrastructure": "Infrastructure",
+    "projects.categories.webDev": "Web Development",
+    
+    // Resume section
+    "resume.title": "Resume",
+    "resume.subtitle": "Get my professional resume",
+    "resume.description": "Fill out the form below to download my detailed resume with my professional experience, skills, and education.",
+    "resume.form.title": "Download My Resume",
+    "resume.form.firstName": "First Name",
+    "resume.form.lastName": "Last Name",
+    "resume.form.email": "Email",
+    "resume.form.role": "Role",
+    "resume.form.company": "Company",
+    "resume.form.submit": "Download Resume",
+    "resume.form.success": "Thank you! Your resume is downloading...",
+    "resume.form.error": "Something went wrong. Please try again.",
+    "resume.form.successTitle": "Success!",
+    "resume.form.successDescription": "Your resume is being downloaded.",
+    "resume.form.errorTitle": "Error",
+    "resume.form.errorDescription": "There was a problem downloading your resume. Please try again.",
+    "resume.form.security": "Your information is secure and won't be shared with third parties.",
+    "resume.form.features": "What's Included",
+    "resume.form.feature1": "Detailed work history",
+    "resume.form.feature2": "Skills analysis",
+    "resume.form.feature3": "Education timeline",
+    "resume.form.feature4": "Project portfolio",
+    "resume.form.captcha": "hCaptcha verification will appear here",
+    "resume.form.downloading": "Downloading...",
+    "resume.form.downloadBtn": "Download Resume",
+    "resume.form.dataProtection": "Your data is protected and encrypted",
+    "resume.form.workEmail": "Work Email",
+    "resume.form.emailRequirement": "Must be a corporate email (Gmail, Yahoo, etc. not accepted)",
+    
+    // Certifications section
+    "certifications.title": "Certifications",
+    "certifications.subtitle": "Professional credentials and achievements",
+    "certifications.activeTitle": "Active Certifications",
+    "certifications.pastTitle": "Past Certifications",
+    
+    "certifications.aws.name": "AWS Solutions Architect - Professional",
+    "certifications.aws.short": "AWS Pro",
+    "certifications.aws.validity": "Valid until Dec 2025",
+    
+    "certifications.cissp.name": "Certified Information Systems Security Professional",
+    "certifications.cissp.short": "CISSP",
+    "certifications.cissp.validity": "Valid until Oct 2026",
+    
+    "certifications.azure.name": "Microsoft Azure Security Engineer",
+    "certifications.azure.short": "Azure Security",
+    "certifications.azure.validity": "Valid until Mar 2026",
+    
+    "certifications.kubernetes.name": "Certified Kubernetes Administrator",
+    "certifications.kubernetes.short": "CKA",
+    "certifications.kubernetes.validity": "Valid until Nov 2025",
+    
+    "certifications.comptia.name": "CompTIA Security+",
+    "certifications.comptia.short": "Security+",
+    "certifications.comptia.validity": "Valid until Aug 2026",
+    
+    "certifications.expired.network.name": "CompTIA Network+",
+    "certifications.expired.network.short": "Network+",
+    
+    "certifications.expired.mcsa.name": "Microsoft Certified Solutions Associate",
+    "certifications.expired.mcsa.short": "MCSA",
+    
+    "certifications.expired.itil.name": "ITIL Foundation",
+    "certifications.expired.itil.short": "ITIL",
+    
+    // Footer
+    "footer.copyright": "© 2025 Heraldo Domingues. All rights reserved.",
+    "footer.contact": "Contact",
+    "footer.privacy": "Privacy Policy",
+    "footer.terms": "Terms of Service",
+    "footer.description": "Secure and scalable web application architecture specialist",
+    "footer.quickLinks": "Quick Links",
+    "footer.legal": "Legal",
+    "footer.cookies": "Cookie Policy",
+    "footer.rights": "All Rights Reserved",
+    "footer.builtWith": "Built with React & TailwindCSS",
+    
+    // Navigation addendum
+    "nav.certifications": "Certifications",
+    
+    // Language switcher
+    "language.label": "Language",
+    "language.english": "English",
+    "language.portuguese": "Portuguese",
+    "language.spanish": "Spanish",
+    
+    // Skills
+    "skills.technologies": "Technologies",
+    "skills.title": "Skills & Technologies",
+    "skills.subtitle": "Areas of expertise and proficiency",
+    "skills.technical": "Technical",
+    "skills.business": "Business",
+    "skills.management": "Management",
+    "skills.infrastructure": "Infrastructure",
+    "skills.security": "Security",
+    "skills.development": "Development",
+    "skills.observability": "Observability",
+    "skills.iBring": "I bring:",
+    "skills.strategicClarity": "Strategic clarity",
+    "skills.strategicClarityDesc": "I quickly assess what's working, what's not, and where to go next.",
+    "skills.driveToWin": "Drive to win",
+    "skills.driveToWinDesc": "I don't just aim for progress. I aim for results that matter.",
+    "skills.visionFuture": "Vision for the future",
+    "skills.visionFutureDesc": "I connect today's decisions to tomorrow's opportunities.",
+    "skills.actionAnalysis": "Action over analysis",
+    "skills.actionAnalysisDesc": "I get teams moving when others are stuck.",
+    "skills.confidence": "Confidence under pressure",
+    "skills.confidenceDesc": "I lead conversations with presence, clarity, and care.",
+    "skills.beginner": "Beginner",
+    "skills.intermediate": "Intermediate",
+    "skills.advanced": "Advanced",
+    "skills.expert": "Expert",
+    "skills.nextjs": "Next.js",
+    "skills.networkSecurity": "Network Security",
+    "skills.typescript": "TypeScript",
+    "skills.next.js": "Next.js",
+    "skills.network security": "Network Security",
+    "skills.identity access management": "Identity Access Management",
+    "skills.privileged access management": "Privileged Access Management",
+    "skills.network segmentation": "Network Segmentation",
+    "skills.intrusion detection": "Intrusion Detection",
+    
+    // Common buttons
+    "button.learnMore": "Learn More",
+    "button.download": "Download",
+    "button.submit": "Submit",
+    "button.cancel": "Cancel",
+    
+    // Recommendations section
+    "recommendations.title": "LinkedIn Recommendations",
+    "recommendations.subtitle": "What my colleagues are saying about me",
+  };
