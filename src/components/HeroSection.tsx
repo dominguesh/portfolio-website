@@ -1,89 +1,86 @@
-import { useState } from "react";
-import { Link } from "wouter";
-import { MenuIcon, X } from "lucide-react";
-import LanguageSwitcher from "./LanguageSwitcher";
+import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/use-language";
 
-export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+export default function HeroSection() {
   const { t } = useLanguage();
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  const navigation = [
-    { name: t('nav.home'), href: "#intro" },
-    { name: t('nav.companies'), href: "#companies" },
-    { name: t('nav.projects'), href: "#projects" },
-    { name: t('skills.technologies') || "Skills", href: "#skills" },
-    { name: t('nav.certifications'), href: "#certifications" },
-    { name: t('recommendations.title') || "Recommendations", href: "#recommendations" },
-    { name: t('nav.resume'), href: "#resume" },
-  ];
-
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-terminal/90 backdrop-blur supports-[backdrop-filter]:bg-terminal/80">
-      <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
-          <Link href="/" className="font-bold text-screentime text-xl font-heading relative group overflow-hidden">
-            <span>Heraldo Domingues</span>
-            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-flow scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-          </Link>
-        </div>
-        
-        {/* Mobile menu button */}
-        <button 
-          className="lg:hidden text-screentime hover:text-flow transition-colors"
-          aria-label="Toggle menu"
-          aria-expanded={mobileMenuOpen}
-          onClick={toggleMobileMenu}
-        >
-          {mobileMenuOpen ? (
-            <X className="h-6 w-6" />
-          ) : (
-            <MenuIcon className="h-6 w-6" />
-          )}
-        </button>
-        
-        {/* Desktop navigation */}
-        <nav className="hidden lg:flex items-center gap-6">
-          {navigation.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-sm font-medium text-screentime/80 hover:text-flow transition-colors font-sans relative group"
-            >
-              {item.name}
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-flow/70 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-            </a>
-          ))}
-          <LanguageSwitcher />
-        </nav>
-      </div>
-      
-      {/* Mobile navigation dropdown with animation */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden container py-4 border-t border-gray-800 bg-terminal anim-slide-in-bottom">
-          <nav className="flex flex-col space-y-4">
-            {navigation.map((item, index) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-sm font-medium text-screentime/80 hover:text-flow transition-colors font-sans anim-slide-in-left"
-                style={{ animationDelay: `${index * 0.1}s` }}
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {item.name}
-              </a>
-            ))}
-            <div className="anim-fade-in" style={{ animationDelay: "0.5s" }}>
-              <p className="text-sm font-medium mb-2 text-screentime/70 font-sans">{t('language.label')}</p>
-              <LanguageSwitcher mobile />
+    <section id="intro" className="py-24 hero-background">
+      <div className="section-container">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col justify-center relative z-10">
+            <h1 className="mb-6 text-screentime font-light anim-fade-in font-heading text-center">
+              Make <span className="text-flow">progress</span> flow
+            </h1>
+            <p className="text-xl md:text-2xl text-screentime/80 mb-8 anim-fade-in font-sans text-center" style={{ animationDelay: "200ms" }}>
+              {t('hero.subtitle')}
+            </p>
+            <div className="space-y-4 text-screentime/70 mb-10 mx-auto anim-fade-in font-sans" style={{ animationDelay: "400ms" }}>
+              <p>{t('hero.intro', "I'm Heraldo Domingues — a solutions engineer who thrives at the intersection of people, process, and technology.")}</p>
+              <p>{t('hero.specialization', "I specialize in simplifying complex problems and creating forward momentum. My focus is helping teams move faster, decide smarter, and build confidently. I'm at my best when supporting technical sales conversations, designing proofs of concept, and guiding buyers through the full customer journey.")}</p>
+              <p>{t('hero.experience', "I've supported sales and customer success across software development, Agile/Scrum, cybersecurity (PAM), networking, and now Generative AI and prompt engineering.")}</p>
+              <p className="font-medium italic text-flow">{t('hero.motto', 'Aut Viam Inveniam Aut Faciam — "Either I will find a way or I will make one."')}</p>
             </div>
-          </nav>
+            
+            {/* Social Links */}
+            <div className="flex gap-4 mb-10 justify-center anim-fade-in" style={{ animationDelay: "600ms" }}>
+              <a 
+                href="https://github.com/dominguesh" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="p-2 rounded-full bg-terminal-100 text-screentime hover:bg-flow hover:text-screentime transition-all duration-300" 
+                aria-label="GitHub"
+              >
+                <Github className="animate-pulse-soft" style={{ animationDelay: "300ms" }} />
+              </a>
+              <a 
+                href="https://linkedin.com/in/heraldodomingues/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="p-2 rounded-full bg-terminal-100 text-screentime hover:bg-flow hover:text-screentime transition-all duration-300" 
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="animate-pulse-soft" style={{ animationDelay: "600ms" }} />
+              </a>
+              <a 
+                href="https://bsky.app/profile/domingues.pro" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="p-2 rounded-full bg-terminal-100 text-screentime hover:bg-flow hover:text-screentime transition-all duration-300" 
+                aria-label="Bluesky"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="animate-pulse-soft" style={{ animationDelay: "900ms" }} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5Z"/>
+                  <path d="m2 17 10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </a>
+              <a 
+                href="mailto:heraldo@domingues.pro" 
+                className="p-2 rounded-full bg-terminal-100 text-screentime hover:bg-flow hover:text-screentime transition-all duration-300" 
+                aria-label="Email"
+              >
+                <Mail className="animate-pulse-soft" style={{ animationDelay: "1200ms" }} />
+              </a>
+            </div>
+            
+            <div className="flex flex-wrap gap-4 justify-center anim-fade-in" style={{ animationDelay: "800ms" }}>
+              <Button asChild className="btn-primary font-sans">
+                <a href="#projects">
+                  {t('hero.cta')}
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+              </Button>
+              <Button asChild className="btn-secondary font-sans">
+                <a href="#resume">
+                  {t('button.download')} {t('nav.resume')}
+                  <Download className="ml-2 h-5 w-5" />
+                </a>
+              </Button>
+            </div>
+          </div>
         </div>
-      )}
-    </header>
+      </div>
+    </section>
   );
 }
